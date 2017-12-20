@@ -24,6 +24,16 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Augmented Reality would like to Use your Camera</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Allow Augmented Reality to determine the location.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow Augmented Reality to determine the location.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow Augmented Reality to determine the location.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Augmented Reality app would like to use your Photo Library</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

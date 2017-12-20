@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BAC7F10FD15F22375F3735C /* Pods_AugmentedRealityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FB38FD0D0E1163BAC33843 /* Pods_AugmentedRealityTests.framework */; };
 		63784A3D1FE2771200609F8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63784A3C1FE2771200609F8D /* AppDelegate.swift */; };
 		63784A3F1FE2771200609F8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63784A3E1FE2771200609F8D /* ViewController.swift */; };
 		63784A421FE2771200609F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63784A401FE2771200609F8D /* Main.storyboard */; };
@@ -14,6 +15,28 @@
 		63784A471FE2771200609F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63784A451FE2771200609F8D /* LaunchScreen.storyboard */; };
 		63784A521FE2771200609F8D /* AugmentedRealityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63784A511FE2771200609F8D /* AugmentedRealityTests.swift */; };
 		63784A5D1FE2771200609F8D /* AugmentedRealityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63784A5C1FE2771200609F8D /* AugmentedRealityUITests.swift */; };
+		63BF0B4A1FEA985C00382F54 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B371FEA985B00382F54 /* Place.swift */; };
+		63BF0B4B1FEA985C00382F54 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B381FEA985B00382F54 /* AnnotationView.swift */; };
+		63BF0B4C1FEA985C00382F54 /* AugmentedMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B391FEA985B00382F54 /* AugmentedMapViewController.swift */; };
+		63BF0B4D1FEA985C00382F54 /* ARAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B3C1FEA985B00382F54 /* ARAnnotation.swift */; };
+		63BF0B4E1FEA985C00382F54 /* ARAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B3D1FEA985B00382F54 /* ARAnnotationView.swift */; };
+		63BF0B4F1FEA985C00382F54 /* ARConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B3E1FEA985B00382F54 /* ARConfiguration.swift */; };
+		63BF0B501FEA985C00382F54 /* ARTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B3F1FEA985B00382F54 /* ARTrackingManager.swift */; };
+		63BF0B511FEA985C00382F54 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B401FEA985B00382F54 /* ARViewController.swift */; };
+		63BF0B521FEA985C00382F54 /* DebugMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B421FEA985B00382F54 /* DebugMapViewController.swift */; };
+		63BF0B531FEA985C00382F54 /* DebugMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BF0B441FEA985B00382F54 /* DebugMapViewController.xib */; };
+		63BF0B541FEA985C00382F54 /* hdar_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BF0B451FEA985B00382F54 /* hdar_close.png */; };
+		63BF0B551FEA985C00382F54 /* hdar_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BF0B461FEA985B00382F54 /* hdar_close@2x.png */; };
+		63BF0B561FEA985C00382F54 /* hdar_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BF0B471FEA985B00382F54 /* hdar_close@3x.png */; };
+		63BF0B571FEA985C00382F54 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B481FEA985C00382F54 /* PlaceAnnotation.swift */; };
+		63BF0B581FEA985C00382F54 /* PlacesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B491FEA985C00382F54 /* PlacesLoader.swift */; };
+		63BF0B5B1FEA9B1900382F54 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B5A1FEA9B1900382F54 /* Constants.swift */; };
+		63BF0B5D1FEA9B3400382F54 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B5C1FEA9B3400382F54 /* Utility.swift */; };
+		63BF0B611FEA9B4800382F54 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B601FEA9B4800382F54 /* Base.swift */; };
+		63BF0B631FEA9B5B00382F54 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B621FEA9B5B00382F54 /* ApiManager.swift */; };
+		63BF0B651FEA9C0300382F54 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF0B641FEA9C0300382F54 /* Extensions.swift */; };
+		776A20356F6588C71639C70A /* Pods_AugmentedRealityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90173A105EA541768266394 /* Pods_AugmentedRealityUITests.framework */; };
+		932C8251503C56276F18BCB0 /* Pods_AugmentedReality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7706D7F779F9078F965CB65 /* Pods_AugmentedReality.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14CC2B74884CC4DE33FAD714 /* Pods-AugmentedRealityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugmentedRealityUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AugmentedRealityUITests/Pods-AugmentedRealityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2272BB54CA2A67FE9D92B7C9 /* Pods-AugmentedReality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugmentedReality.release.xcconfig"; path = "Pods/Target Support Files/Pods-AugmentedReality/Pods-AugmentedReality.release.xcconfig"; sourceTree = "<group>"; };
+		23DF5F832C234737930B495B /* Pods-AugmentedRealityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugmentedRealityUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AugmentedRealityUITests/Pods-AugmentedRealityUITests.release.xcconfig"; sourceTree = "<group>"; };
 		63784A391FE2771200609F8D /* AugmentedReality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AugmentedReality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63784A3C1FE2771200609F8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63784A3E1FE2771200609F8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +73,32 @@
 		63784A581FE2771200609F8D /* AugmentedRealityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AugmentedRealityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63784A5C1FE2771200609F8D /* AugmentedRealityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugmentedRealityUITests.swift; sourceTree = "<group>"; };
 		63784A5E1FE2771200609F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63BF0B371FEA985B00382F54 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		63BF0B381FEA985B00382F54 /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		63BF0B391FEA985B00382F54 /* AugmentedMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AugmentedMapViewController.swift; sourceTree = "<group>"; };
+		63BF0B3C1FEA985B00382F54 /* ARAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotation.swift; sourceTree = "<group>"; };
+		63BF0B3D1FEA985B00382F54 /* ARAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotationView.swift; sourceTree = "<group>"; };
+		63BF0B3E1FEA985B00382F54 /* ARConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARConfiguration.swift; sourceTree = "<group>"; };
+		63BF0B3F1FEA985B00382F54 /* ARTrackingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARTrackingManager.swift; sourceTree = "<group>"; };
+		63BF0B401FEA985B00382F54 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		63BF0B421FEA985B00382F54 /* DebugMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugMapViewController.swift; sourceTree = "<group>"; };
+		63BF0B441FEA985B00382F54 /* DebugMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugMapViewController.xib; sourceTree = "<group>"; };
+		63BF0B451FEA985B00382F54 /* hdar_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hdar_close.png; sourceTree = "<group>"; };
+		63BF0B461FEA985B00382F54 /* hdar_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@2x.png"; sourceTree = "<group>"; };
+		63BF0B471FEA985B00382F54 /* hdar_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@3x.png"; sourceTree = "<group>"; };
+		63BF0B481FEA985C00382F54 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		63BF0B491FEA985C00382F54 /* PlacesLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesLoader.swift; sourceTree = "<group>"; };
+		63BF0B5A1FEA9B1900382F54 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		63BF0B5C1FEA9B3400382F54 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		63BF0B601FEA9B4800382F54 /* Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		63BF0B621FEA9B5B00382F54 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		63BF0B641FEA9C0300382F54 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7460B4D368F3E52160CA6A5B /* Pods-AugmentedRealityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugmentedRealityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AugmentedRealityTests/Pods-AugmentedRealityTests.release.xcconfig"; sourceTree = "<group>"; };
+		86FE163DF03D426FEF25ED81 /* Pods-AugmentedRealityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugmentedRealityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AugmentedRealityTests/Pods-AugmentedRealityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		904BBB223511AE58277A020F /* Pods-AugmentedReality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugmentedReality.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AugmentedReality/Pods-AugmentedReality.debug.xcconfig"; sourceTree = "<group>"; };
+		A90173A105EA541768266394 /* Pods_AugmentedRealityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AugmentedRealityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FB38FD0D0E1163BAC33843 /* Pods_AugmentedRealityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AugmentedRealityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7706D7F779F9078F965CB65 /* Pods_AugmentedReality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AugmentedReality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				932C8251503C56276F18BCB0 /* Pods_AugmentedReality.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BAC7F10FD15F22375F3735C /* Pods_AugmentedRealityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776A20356F6588C71639C70A /* Pods_AugmentedRealityUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +136,8 @@
 				63784A501FE2771200609F8D /* AugmentedRealityTests */,
 				63784A5B1FE2771200609F8D /* AugmentedRealityUITests */,
 				63784A3A1FE2771200609F8D /* Products */,
+				E95877137BD9E5477485CAFF /* Pods */,
+				822B95BDA49940AF21E9E0EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +154,11 @@
 		63784A3B1FE2771200609F8D /* AugmentedReality */ = {
 			isa = PBXGroup;
 			children = (
+				63BF0B621FEA9B5B00382F54 /* ApiManager.swift */,
+				63BF0B5E1FEA9B4800382F54 /* Models */,
+				63BF0B591FEA9B0000382F54 /* Utility */,
 				63784A3C1FE2771200609F8D /* AppDelegate.swift */,
-				63784A3E1FE2771200609F8D /* ViewController.swift */,
+				63BF0B361FEA97D800382F54 /* ARController */,
 				63784A401FE2771200609F8D /* Main.storyboard */,
 				63784A431FE2771200609F8D /* Assets.xcassets */,
 				63784A451FE2771200609F8D /* LaunchScreen.storyboard */,
@@ -125,6 +185,110 @@
 			path = AugmentedRealityUITests;
 			sourceTree = "<group>";
 		};
+		63BF0B361FEA97D800382F54 /* ARController */ = {
+			isa = PBXGroup;
+			children = (
+				63BF0B391FEA985B00382F54 /* AugmentedMapViewController.swift */,
+				63BF0B3A1FEA985B00382F54 /* HDAugmentedReality */,
+				63BF0B381FEA985B00382F54 /* AnnotationView.swift */,
+				63BF0B371FEA985B00382F54 /* Place.swift */,
+				63BF0B481FEA985C00382F54 /* PlaceAnnotation.swift */,
+				63BF0B491FEA985C00382F54 /* PlacesLoader.swift */,
+				63784A3E1FE2771200609F8D /* ViewController.swift */,
+			);
+			path = ARController;
+			sourceTree = "<group>";
+		};
+		63BF0B3A1FEA985B00382F54 /* HDAugmentedReality */ = {
+			isa = PBXGroup;
+			children = (
+				63BF0B3B1FEA985B00382F54 /* Classes */,
+				63BF0B431FEA985B00382F54 /* Resources */,
+			);
+			path = HDAugmentedReality;
+			sourceTree = "<group>";
+		};
+		63BF0B3B1FEA985B00382F54 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				63BF0B3C1FEA985B00382F54 /* ARAnnotation.swift */,
+				63BF0B3D1FEA985B00382F54 /* ARAnnotationView.swift */,
+				63BF0B3E1FEA985B00382F54 /* ARConfiguration.swift */,
+				63BF0B3F1FEA985B00382F54 /* ARTrackingManager.swift */,
+				63BF0B401FEA985B00382F54 /* ARViewController.swift */,
+				63BF0B411FEA985B00382F54 /* Debug */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		63BF0B411FEA985B00382F54 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				63BF0B421FEA985B00382F54 /* DebugMapViewController.swift */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		63BF0B431FEA985B00382F54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63BF0B441FEA985B00382F54 /* DebugMapViewController.xib */,
+				63BF0B451FEA985B00382F54 /* hdar_close.png */,
+				63BF0B461FEA985B00382F54 /* hdar_close@2x.png */,
+				63BF0B471FEA985B00382F54 /* hdar_close@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		63BF0B591FEA9B0000382F54 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				63BF0B641FEA9C0300382F54 /* Extensions.swift */,
+				63BF0B5C1FEA9B3400382F54 /* Utility.swift */,
+				63BF0B5A1FEA9B1900382F54 /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		63BF0B5E1FEA9B4800382F54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63BF0B5F1FEA9B4800382F54 /* ResponseModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63BF0B5F1FEA9B4800382F54 /* ResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				63BF0B601FEA9B4800382F54 /* Base.swift */,
+			);
+			path = ResponseModels;
+			sourceTree = "<group>";
+		};
+		822B95BDA49940AF21E9E0EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7706D7F779F9078F965CB65 /* Pods_AugmentedReality.framework */,
+				B3FB38FD0D0E1163BAC33843 /* Pods_AugmentedRealityTests.framework */,
+				A90173A105EA541768266394 /* Pods_AugmentedRealityUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E95877137BD9E5477485CAFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				904BBB223511AE58277A020F /* Pods-AugmentedReality.debug.xcconfig */,
+				2272BB54CA2A67FE9D92B7C9 /* Pods-AugmentedReality.release.xcconfig */,
+				86FE163DF03D426FEF25ED81 /* Pods-AugmentedRealityTests.debug.xcconfig */,
+				7460B4D368F3E52160CA6A5B /* Pods-AugmentedRealityTests.release.xcconfig */,
+				14CC2B74884CC4DE33FAD714 /* Pods-AugmentedRealityUITests.debug.xcconfig */,
+				23DF5F832C234737930B495B /* Pods-AugmentedRealityUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63784A611FE2771200609F8D /* Build configuration list for PBXNativeTarget "AugmentedReality" */;
 			buildPhases = (
+				B1D23FC7CFA40CC98330D181 /* [CP] Check Pods Manifest.lock */,
 				63784A351FE2771200609F8D /* Sources */,
 				63784A361FE2771200609F8D /* Frameworks */,
 				63784A371FE2771200609F8D /* Resources */,
+				65D2E60740C6A7E9DC321E06 /* [CP] Embed Pods Frameworks */,
+				037F008852D87A9CE3C312E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +316,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63784A641FE2771200609F8D /* Build configuration list for PBXNativeTarget "AugmentedRealityTests" */;
 			buildPhases = (
+				EE214D155983321D71E17303 /* [CP] Check Pods Manifest.lock */,
 				63784A491FE2771200609F8D /* Sources */,
 				63784A4A1FE2771200609F8D /* Frameworks */,
 				63784A4B1FE2771200609F8D /* Resources */,
+				A5E906089B9F5558792A1EEF /* [CP] Embed Pods Frameworks */,
+				0D6A07FDEDA97A9C02D4F7C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +337,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63784A671FE2771200609F8D /* Build configuration list for PBXNativeTarget "AugmentedRealityUITests" */;
 			buildPhases = (
+				A6C7CC942DDC19004FBE112F /* [CP] Check Pods Manifest.lock */,
 				63784A541FE2771200609F8D /* Sources */,
 				63784A551FE2771200609F8D /* Frameworks */,
 				63784A561FE2771200609F8D /* Resources */,
+				2D64BF072A9FA28089879A5B /* [CP] Embed Pods Frameworks */,
+				D799669ABFFF38360B2FF810 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,8 +406,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				63784A471FE2771200609F8D /* LaunchScreen.storyboard in Resources */,
+				63BF0B541FEA985C00382F54 /* hdar_close.png in Resources */,
+				63BF0B561FEA985C00382F54 /* hdar_close@3x.png in Resources */,
 				63784A441FE2771200609F8D /* Assets.xcassets in Resources */,
 				63784A421FE2771200609F8D /* Main.storyboard in Resources */,
+				63BF0B551FEA985C00382F54 /* hdar_close@2x.png in Resources */,
+				63BF0B531FEA985C00382F54 /* DebugMapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +431,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		037F008852D87A9CE3C312E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AugmentedReality/Pods-AugmentedReality-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D6A07FDEDA97A9C02D4F7C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AugmentedRealityTests/Pods-AugmentedRealityTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D64BF072A9FA28089879A5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AugmentedRealityUITests/Pods-AugmentedRealityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65D2E60740C6A7E9DC321E06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AugmentedReality/Pods-AugmentedReality-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E906089B9F5558792A1EEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AugmentedRealityTests/Pods-AugmentedRealityTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6C7CC942DDC19004FBE112F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D23FC7CFA40CC98330D181 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D799669ABFFF38360B2FF810 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AugmentedRealityUITests/Pods-AugmentedRealityUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE214D155983321D71E17303 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63784A351FE2771200609F8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BF0B611FEA9B4800382F54 /* Base.swift in Sources */,
+				63BF0B651FEA9C0300382F54 /* Extensions.swift in Sources */,
+				63BF0B521FEA985C00382F54 /* DebugMapViewController.swift in Sources */,
+				63BF0B581FEA985C00382F54 /* PlacesLoader.swift in Sources */,
+				63BF0B4C1FEA985C00382F54 /* AugmentedMapViewController.swift in Sources */,
+				63BF0B4D1FEA985C00382F54 /* ARAnnotation.swift in Sources */,
+				63BF0B4A1FEA985C00382F54 /* Place.swift in Sources */,
+				63BF0B5D1FEA9B3400382F54 /* Utility.swift in Sources */,
+				63BF0B571FEA985C00382F54 /* PlaceAnnotation.swift in Sources */,
+				63BF0B501FEA985C00382F54 /* ARTrackingManager.swift in Sources */,
+				63BF0B4F1FEA985C00382F54 /* ARConfiguration.swift in Sources */,
+				63BF0B4B1FEA985C00382F54 /* AnnotationView.swift in Sources */,
 				63784A3F1FE2771200609F8D /* ViewController.swift in Sources */,
 				63784A3D1FE2771200609F8D /* AppDelegate.swift in Sources */,
+				63BF0B5B1FEA9B1900382F54 /* Constants.swift in Sources */,
+				63BF0B631FEA9B5B00382F54 /* ApiManager.swift in Sources */,
+				63BF0B4E1FEA985C00382F54 /* ARAnnotationView.swift in Sources */,
+				63BF0B511FEA985C00382F54 /* ARViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +755,7 @@
 		};
 		63784A621FE2771200609F8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904BBB223511AE58277A020F /* Pods-AugmentedReality.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +771,7 @@
 		};
 		63784A631FE2771200609F8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2272BB54CA2A67FE9D92B7C9 /* Pods-AugmentedReality.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +787,7 @@
 		};
 		63784A651FE2771200609F8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86FE163DF03D426FEF25ED81 /* Pods-AugmentedRealityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +805,7 @@
 		};
 		63784A661FE2771200609F8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7460B4D368F3E52160CA6A5B /* Pods-AugmentedRealityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +823,7 @@
 		};
 		63784A681FE2771200609F8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14CC2B74884CC4DE33FAD714 /* Pods-AugmentedRealityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +840,7 @@
 		};
 		63784A691FE2771200609F8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DF5F832C234737930B495B /* Pods-AugmentedRealityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
